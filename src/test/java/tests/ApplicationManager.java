@@ -13,7 +13,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     public WebDriver driver;
@@ -40,7 +39,6 @@ public class ApplicationManager {
 
         driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/\n");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
 

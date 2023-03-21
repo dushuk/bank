@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126ec582-83e4-43d8-bf8b-de2c38db6196" name="Changes" comment="created new project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/BankManagerLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/addCustomer/AddCustomerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/customers/CustomersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/openAccount/OpenAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/customerLogin/CustomerLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/login/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wait/Wait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="126ec582-83e4-43d8-bf8b-de2c38db6196" name="Changes" comment="Added a lot of pages for bank project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/customerLogin/account/AccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/addCustomer/AddCustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/addCustomer/AddCustomerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/customers/CustomersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/customers/CustomersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/openAccount/OpenAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/openAccount/OpenAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/customerLogin/CustomerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/customerLogin/CustomerLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/login/CustomerLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wait/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wait/Wait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +69,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dushu/IdeaProjects/phonebooknew",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dushu/IdeaProjects/phonebooknew&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dushu\IdeaProjects\bank\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CustomerLoginTest.loginExistingUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bank.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.login" />
+      <option name="MAIN_CLASS_NAME" value="tests.login.CustomerLoginTest" />
+      <option name="METHOD_NAME" value="loginExistingUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CustomerLoginTest.loginExistingUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,12 +131,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678793765166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a lot of pages for bank project">
+      <created>1678967435778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678967435778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="created new project" />
+    <MESSAGE value="Added a lot of pages for bank project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a lot of pages for bank project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
