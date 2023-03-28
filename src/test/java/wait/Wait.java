@@ -9,8 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class Wait {
-    WebDriver driver;
-
+    public WebDriver driver;
     public WebDriverWait wait;
     Duration TIMEOUT = Duration.ofSeconds(10);
 
@@ -38,5 +37,4 @@ public class Wait {
             e.printStackTrace();
         }
     }
-
 }

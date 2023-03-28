@@ -6,17 +6,19 @@ import org.openqa.selenium.support.FindBy;
 import wait.Wait;
 
 public class HomePage extends PageBase {
-    Wait wait;
-
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
+    Wait wait;
+
     @FindBy(xpath = "//*[@ng-click='home()']")
     protected WebElement homeButton;
+
     @FindBy(xpath = "//*[@ng-click='customer()']")
     protected WebElement customerLoginButton;
-    @FindBy(xpath = "//*[@g-click='manager()']")
+
+    @FindBy(xpath = "//*[@ng-click='manager()']")
     protected WebElement bankManagerLoginButton;
 
     public void waitForLoading() {
@@ -37,5 +39,4 @@ public class HomePage extends PageBase {
     public void clickOnBankManagerLoginButton() {
         click(bankManagerLoginButton);
     }
-
 }

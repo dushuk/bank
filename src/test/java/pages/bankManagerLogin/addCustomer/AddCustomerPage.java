@@ -12,11 +12,12 @@ public class AddCustomerPage extends PageBase {
     }
 
     Wait wait;
-    @FindBy(xpath = "input[@placeholder='First Name']")
+
+    @FindBy(xpath = "//input[@placeholder='First Name']")
     protected WebElement firstNameField;
-    @FindBy(xpath = "input[@placeholder='Last Name']")
+    @FindBy(xpath = "//input[@placeholder='Last Name']")
     protected WebElement lastNameField;
-    @FindBy(xpath = "input[@placeholder='Post Code']")
+    @FindBy(xpath = "//input[@placeholder='Post Code']")
     protected WebElement postCodeField;
     @FindBy(xpath = "//button[@type='submit']")
     protected WebElement addCustomerButton;

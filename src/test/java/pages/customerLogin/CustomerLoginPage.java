@@ -15,6 +15,7 @@ public class CustomerLoginPage extends PageBase {
 
     @FindBy(id = "userSelect")
     protected WebElement userSelect;
+
     @FindBy(xpath = "//*[@type='submit']")
     protected WebElement loginButton;
 
@@ -35,4 +36,3 @@ public class CustomerLoginPage extends PageBase {
         wait.forVisibility(loginButton);
     }
 }
-

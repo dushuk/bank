@@ -7,7 +7,6 @@ import pages.PageBase;
 import wait.Wait;
 
 public class AccountPage extends PageBase {
-
     Wait wait;
 
     public AccountPage(WebDriver driver) {

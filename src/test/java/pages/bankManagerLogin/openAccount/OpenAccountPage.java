@@ -12,12 +12,16 @@ public class OpenAccountPage extends PageBase {
     }
 
     Wait wait;
+
     @FindBy(xpath = "//select[@id='userSelect']")
     protected WebElement customerNameDropdown;
+
     @FindBy(xpath = "//select[@id='currency']")
     protected WebElement currencyDropdown;
+
     @FindBy(xpath = "//button[@type='submit']")
     protected WebElement processButton;
+
 
     public void waitForLoading() {
         wait = new Wait(driver);
@@ -34,7 +38,7 @@ public class OpenAccountPage extends PageBase {
         selectOption(currency, currencyDropdown);
     }
 
-    public void clickOnButton() {
+    public void clickOnProcessButton() {
         click(processButton);
     }
 }

@@ -7,7 +7,6 @@ import pages.customerLogin.account.AccountPage;
 import tests.TestBase;
 
 public class CustomerLoginTest extends TestBase {
-
     HomePage homePage;
     CustomerLoginPage customerLoginPage;
     AccountPage accountPage;
@@ -27,6 +26,5 @@ public class CustomerLoginTest extends TestBase {
 
         accountPage = new AccountPage(app.driver);
         accountPage.waitForLoading();
-
     }
 }
