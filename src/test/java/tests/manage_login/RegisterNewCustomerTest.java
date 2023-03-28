@@ -75,4 +75,22 @@ public class RegisterNewCustomerTest extends TestBase {
         accountPage = new AccountPage(app.driver);
         accountPage.waitForLoading();
     }
+
+    @Test
+    public void registerNewUserWithInvalidData() {
+        homePage = new HomePage(app.driver);
+        homePage.waitForLoading();
+        homePage.clickOnBankManagerLoginButton();
+
+        bankManagerLoginPage = new BankManagerLoginPage(app.driver);
+        bankManagerLoginPage.waitForLoading();
+        bankManagerLoginPage.openAddCustomerTab();
+
+        addCustomerPage = new AddCustomerPage(app.driver);
+        addCustomerPage.waitForLoading();
+        addCustomerPage.fillAddCustomerForm(firstName, lastName, "");
+        addCustomerPage.clickOnAddCustomerButton();
+        addCustomerPage.checkFilledAddCustomerForm(firstName, lastName, "");
+
+    }
 }

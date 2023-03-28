@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.awt.*;
 import java.io.BufferedReader;
@@ -37,6 +38,12 @@ public class PageBase {
         field.clear();
         field.sendKeys(text);
     }
+
+    public void checkItemText(WebElement element, String expectedText, String err) {
+        String actualText = element.getText();
+        Assert.assertEquals(actualText, expectedText, err);
+    }
+
 
     public String getAlertText() {
         return driver.switchTo().alert().getText();
