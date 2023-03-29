@@ -74,7 +74,7 @@ public class PageBase {
 
         double maxDiffPercent = 0.01 * screenWidth * screenHeight;
 
-        ProcessBuilder pb = new ProcessBuilder("compare", "-metric", "AE", referenceImageFilePath, tmpFilePath, "null:");
+        ProcessBuilder pb = new ProcessBuilder("C:\\Users\\dushu\\OneDrive\\Документи\\ImageMagick-7.1.1-5-portable-Q8-x64\\compare.exe", "-metric", "AE", referenceImageFilePath, tmpFilePath, "null:");
         Process process = pb.start();
         BufferedReader reader = new BufferedReader((new InputStreamReader(process.getErrorStream())));
         String line;

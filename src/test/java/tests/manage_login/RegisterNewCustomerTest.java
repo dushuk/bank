@@ -32,7 +32,7 @@ public class RegisterNewCustomerTest extends TestBase {
     public void registerNewCustomerOpenAccountAndCustomerLogin() throws IOException {
         homePage = new HomePage(app.driver);
         homePage.waitForLoading();
-        // homePage.takeANDCompareScreenshot("homePage", null);
+        homePage.takeANDCompareScreenshot("homePage", null);
         homePage.clickOnBankManagerLoginButton();
 
         bankManagerLoginPage = new BankManagerLoginPage(app.driver);
