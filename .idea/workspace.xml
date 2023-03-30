@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126ec582-83e4-43d8-bf8b-de2c38db6196" name="Changes" comment="Described test registerNewUserWithInvalidData">
+    <list default="true" id="126ec582-83e4-43d8-bf8b-de2c38db6196" name="Changes" comment="Described test registerNewUserWithInvalidData upgreade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/customers/CustomersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/customers/CustomersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/openAccount/OpenAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/bankManagerLogin/openAccount/OpenAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/customerLogin/CustomerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/customerLogin/CustomerLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/manage_login/RegisterNewCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/manage_login/RegisterNewCustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="392fc115-5a48-401b-88d7-399837cd1ad9" />
+        <option name="url" value="https://github.com/dushuk/bank.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -127,9 +145,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterNewCustomerTest.registerNewUserWithInvalidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bank.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.manage_login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.manage_login" />
+      <option name="MAIN_CLASS_NAME" value="tests.manage_login.RegisterNewCustomerTest" />
+      <option name="METHOD_NAME" value="registerNewUserWithInvalidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegisterNewCustomerTest.registerNewCustomerOpenAccountAndCustomerLogin" />
+        <item itemvalue="TestNG.RegisterNewCustomerTest.registerNewUserWithInvalidData" />
         <item itemvalue="TestNG.RegisterNewCustomerTest" />
         <item itemvalue="TestNG.CustomerLoginTest.loginExistingUser" />
       </list>
@@ -193,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680001429117</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Described test registerNewUserWithInvalidData upgreade">
+      <created>1680098164501</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680098164501</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +258,8 @@
     <MESSAGE value="Described pages AddCustomerPage, OpenAccountPage" />
     <MESSAGE value="Described method takeAndCompareScreenshot" />
     <MESSAGE value="Described test registerNewUserWithInvalidData" />
-    <option name="LAST_COMMIT_MESSAGE" value="Described test registerNewUserWithInvalidData" />
+    <MESSAGE value="Described test registerNewUserWithInvalidData upgreade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Described test registerNewUserWithInvalidData upgreade" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

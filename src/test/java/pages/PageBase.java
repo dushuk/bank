@@ -33,6 +33,13 @@ public class PageBase {
         select.selectByVisibleText(optionName);
     }
 
+    public void checkNotExistingOption(String expectedNameOption, WebElement selectElement) {
+        Select select = new Select(selectElement);
+        for (WebElement option : select.getOptions()) {
+            Assert.assertNotEquals(option.getText(), expectedNameOption);
+        }
+    }
+
     public void fillField(WebElement field, String text) {
         click(field);
         field.clear();
